@@ -10,35 +10,33 @@ import UIKit
 class TitleTableViewCell: UITableViewCell {
     
     static let identifier = "TitleTableViewCell"
-    
     public let arrowButton: UIButton = {
-        
+
         let button = UIButton()
         let image = UIImage(systemName: "plus", withConfiguration: UIImage.SymbolConfiguration(pointSize: 20))
         button.setImage(image, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.tintColor = .black
-      button.layer.cornerRadius = 5
+        button.tintColor = .label
+        button.layer.cornerRadius = 5
         return button
-        
-        
     }()
+   
+    
     public let titleLabelsec: UILabel = {
-        
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
+   
     public let titleLabel: UILabel = {
-        
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
+ 
     public let titlesPosterUIImageView: UIImageView = {
-        
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -68,6 +66,7 @@ class TitleTableViewCell: UITableViewCell {
         
         ]
         
+      
         let titleLabelConstraints = [
                     titleLabel.leadingAnchor.constraint(equalTo: titlesPosterUIImageView.trailingAnchor, constant: 20),
                     titleLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
@@ -76,7 +75,6 @@ class TitleTableViewCell: UITableViewCell {
         let titleLabel1Constraints = [
             titleLabelsec.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 39),
             titleLabelsec.bottomAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: -100),
-                    
             titleLabelsec.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
                 ]
                 
@@ -93,11 +91,8 @@ class TitleTableViewCell: UITableViewCell {
             }
         
     
-    
-    
-    
     required init?(coder: NSCoder) {
         fatalError()
+        
     }
-
 }

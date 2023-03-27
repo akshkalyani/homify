@@ -16,10 +16,13 @@ enum Sections: Int{
     case TopRated = 2
     case RecommendedforYou = 3
 }
+
+
 class HomeViewController: UIViewController{
     let sectionTitles: [String] = [
     
         "Top-Rated", "Recommended for you"
+    
     ]
     
     
@@ -28,54 +31,48 @@ class HomeViewController: UIViewController{
         let table = UITableView(frame: .zero, style: .grouped)
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
         
-        
         return table
+   
     }()
 
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
         view.addSubview(HomefeedTable)
         
-        
         HomefeedTable.delegate = self
         HomefeedTable.dataSource = self
         
-        
         configureNavbar()
-        
         
         let headerView = HeroHeader(frame: CGRect(x: 0, y: 0, width: 100, height: 400))
        HomefeedTable.tableHeaderView = headerView
         
-        
-
-        // Do any additional setup after loading the view.
     }
     
+   
     @objc func buttontapped(){
         
         navigationController?.pushViewController(CartViewController(), animated: true)
         
-        
     }
+   
     
     private func configureNavbar(){
         
         var image = UIImage(named: "homify logo")
         image = image?.withRenderingMode(.alwaysOriginal)
         
-//        navigationItem.leftBarButtonItem =
-//
+//        navigationItem.leftBarButtonItem
 //        UIBarButtonItem(image: image, style: .done, target: self, action: nil)
         
         navigationItem.rightBarButtonItems = [
         
             UIBarButtonItem(image: UIImage(systemName: "cart.fill"), style: .done, target: self, action: #selector(buttontapped))
-            
         ]
         
-        navigationController?.navigationBar.tintColor = .black
+        navigationController?.navigationBar.tintColor = .label
         
         
         

@@ -26,10 +26,13 @@ class ViewController: UITabBarController {
         vc3.tabBarItem.image = UIImage(systemName: "figure.stand")
         vc4.tabBarItem.image = UIImage(systemName: "person.fill")
         
+        
         vc1.title = "Home"
         vc2.title = "Services"
         vc3.title = "Upcoming Services"
         vc4.title = "User Profile"
+        
+        //vc1.tabBarItem.standardAppearance?.selectionIndicatorTintColor = .systemRed
         
         tabBar.tintColor = .label
         

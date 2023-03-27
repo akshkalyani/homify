@@ -9,10 +9,25 @@ import UIKit
 
 class UserProfileViewController: UIViewController {
     
+    let blueView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .orange
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    //    let titleLabel: UILabel = {
+    //        let title = UILabel()
+    //        title.text = "My title"
+    //        title.textColor = .white
+    //        title.textAlignment = .center
+    //        //title.translatesAutoresizingMaskIntoConstraintsv = false
+    //        return title
+    //    }()
     
     private var userdetails: [User] = [
-        
-        User(user_name: "bradpitt01", password: "12345", FirstName: "Brad", LastName: "Pitt", profile_image: UIImage(named: "brad_pitt"), address: "Toronto, Canada", mobileNumber: "911-003-2002")
+       
+        User(user_name: "username01", password: "12345", FirstName: "Master", LastName: "User", profile_image: UIImage(named: "brad_pitt"), address: "Chennai, Tamil Nadu", mobileNumber: "+91 9409255598")
     
     ]
     
@@ -73,15 +88,42 @@ class UserProfileViewController: UIViewController {
     
 
     override func viewDidLoad() {
+        /*
+         let titleLabel = UILabel()
+           titleLabel.text = "Helper Profile"
+           titleLabel.textAlignment = .center
+           titleLabel.textColor = .white
+         titleLabel.font = UIFont(name: "Arial Bold", size: 40)
+           titleLabel.translatesAutoresizingMaskIntoConstraints = false
+         view.addSubview(blueView)
+         view.addSubview(titleLabel)
+         NSLayoutConstraint.activate([
+                     titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                     titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10)
+                 ])
+         */
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+//        let titleLabel = UILabel()
+//        titleLabel.text = "Profile"
+//        titleLabel.textAlignment = .center
+//        titleLabel.textColor = .systemBackground
+//        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        
         title = "Profile"
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationItem.largeTitleDisplayMode = .always
+        navigationController?.navigationBar.barTintColor = UIColor(named: "headerBackground")
         let headerView = UserProfileHeader(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 420))
         userTable.tableHeaderView = headerView
         view.addSubview(userTable)
-
+        
+//        view.addSubview(blueView)
+//        view.addSubview(titleLabel)
+//        NSLayoutConstraint.activate([
+//                    titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+//                    titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10)
+//                ])
         
         userTable.delegate = self
         userTable.dataSource = self
@@ -93,9 +135,12 @@ class UserProfileViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         userTable.frame = view.bounds
+//        blueView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+//        blueView.widthAnchor.constraint(equalToConstant: view.bounds.width).isActive = true
+//        blueView.heightAnchor.constraint(equalToConstant: 150).isActive = true
+//        blueView.backgroundColor = UIColor(named: "headerBackground")
     
     }
-    
     
         
     

@@ -66,7 +66,7 @@ class TitleCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 12)
 //        label.layer.backgroundColor = UIColor.systemGroupedBackground.cgColor
-        label.textColor = .black
+        label.textColor = .label
         
         label.textAlignment = .left
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -80,7 +80,7 @@ class TitleCollectionViewCell: UICollectionViewCell {
         label.textAlignment = .left
         label.font = UIFont.systemFont(ofSize: 16, weight: .semibold)
         label.backgroundColor = .systemGroupedBackground
-        label.textColor = .systemGray
+        label.textColor = .label
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
         
