@@ -41,6 +41,7 @@
 		A9A5D66729D152C30004F705 /* WorkerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5D66629D152C30004F705 /* WorkerTableViewCell.swift */; };
 		A9A5D66929D1537B0004F705 /* Worker Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5D66829D1537B0004F705 /* Worker Details.swift */; };
 		A9A5D66B29D155500004F705 /* WorkerProfleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5D66A29D155500004F705 /* WorkerProfleHeader.swift */; };
+		A9A5D66D29D1A8C80004F705 /* disposalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5D66C29D1A8C80004F705 /* disposalTableViewCell.swift */; };
 		A9BC2E2529CC328000143F63 /* AvailableServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC2E2429CC328000143F63 /* AvailableServicesViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,7 @@
 		A9A5D66629D152C30004F705 /* WorkerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerTableViewCell.swift; sourceTree = "<group>"; };
 		A9A5D66829D1537B0004F705 /* Worker Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Worker Details.swift"; sourceTree = "<group>"; };
 		A9A5D66A29D155500004F705 /* WorkerProfleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerProfleHeader.swift; sourceTree = "<group>"; };
+		A9A5D66C29D1A8C80004F705 /* disposalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disposalTableViewCell.swift; sourceTree = "<group>"; };
 		A9BC2E2429CC328000143F63 /* AvailableServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableServicesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +141,7 @@
 				062A98D329AC3F030054A563 /* searchTableViewCell.swift */,
 				062A98DD29AF51680054A563 /* UserProfileHeader.swift */,
 				062A98E529B5EEA20054A563 /* OngoingTableViewCell.swift */,
+				A9A5D66C29D1A8C80004F705 /* disposalTableViewCell.swift */,
 				A9A5D66629D152C30004F705 /* WorkerTableViewCell.swift */,
 				A9A5D66A29D155500004F705 /* WorkerProfleHeader.swift */,
 			);
@@ -397,6 +400,7 @@
 				062A98C129AB2B290054A563 /* CollectionViewTableViewCell.swift in Sources */,
 				A9BC2E2529CC328000143F63 /* AvailableServicesViewController.swift in Sources */,
 				063CF13D29A4D2920088F8BA /* AppDelegate.swift in Sources */,
+				A9A5D66D29D1A8C80004F705 /* disposalTableViewCell.swift in Sources */,
 				062A98DE29AF51680054A563 /* UserProfileHeader.swift in Sources */,
 				062A98DA29AD4D8C0054A563 /* UserProfileViewController.swift in Sources */,
 				062A98D429AC3F030054A563 /* searchTableViewCell.swift in Sources */,
