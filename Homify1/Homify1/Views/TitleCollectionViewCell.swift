@@ -29,10 +29,11 @@ class TitleCollectionViewCell: UICollectionViewCell {
         
         let button = UIButton()
         let image = UIImage(systemName: "ellipsis.circle.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 20))
+        //image?.contentMode = .scaleToAspectFill
         button.setImage(image, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.tintColor = .black
-      button.layer.cornerRadius = 5
+        button.tintColor = .systemBackground
+        button.layer.cornerRadius = 5
         return button
         
         
@@ -55,10 +56,8 @@ class TitleCollectionViewCell: UICollectionViewCell {
        public let posterImageView: UIImageView = {
         let imageView  = UIImageView()
         imageView.contentMode = .scaleAspectFill
-        imageView.backgroundColor = .white
-           imageView.layer.cornerRadius = 50
-           
-
+        imageView.backgroundColor = .systemBackground
+        imageView.layer.cornerRadius = 5
         return imageView
     }()
     
@@ -67,7 +66,6 @@ class TitleCollectionViewCell: UICollectionViewCell {
         label.font = UIFont.systemFont(ofSize: 12)
 //        label.layer.backgroundColor = UIColor.systemGroupedBackground.cgColor
         label.textColor = .label
-        
         label.textAlignment = .left
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -118,7 +116,7 @@ class TitleCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         contentView.addSubview(posterImageView)
-//       contentView.addSubview(Titlelabel)
+       //contentView.addSubview(Titlelabel)
 //        contentView.addSubview(ValidityLabel)
 //        contentView.addSubview(FrequencyLabel)
 //        contentView.addSubview(OverviewLabel)
@@ -160,7 +158,7 @@ class TitleCollectionViewCell: UICollectionViewCell {
         super.layoutSubviews()
      posterImageView.frame = contentView.bounds
 //        posterImageView.frame = CGRect(x: 5, y: 20, width: contentView.bounds.width - 10, height: contentView.bounds.height - 60)
-        moreButton.frame = CGRect(x:289 , y: 5, width: 50, height: 50)
+  //      moreButton.frame = CGRect(x:289 , y: 5, width: 50, height: 50)
      Titlelabel.frame = CGRect(x: 8, y: 300 , width: contentView.bounds.width - 50, height: 30)
      OverviewLabel.frame = CGRect(x: 50, y: 135, width: 300, height: 75)
         ValidityLabel.frame = CGRect(x: 8, y: 128, width: contentView.bounds.width - 50, height: 70)

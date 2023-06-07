@@ -57,21 +57,21 @@ class OngoingTableViewCell: UITableViewCell {
         contentView.addSubview(outOfDaysLabel)
         contentView.addSubview(daysLeftLabel)
         contentView.addSubview(nextServicesLabel)
-       applyConstraints()
+        //applyConstraints()
     }
 
-    private func applyconstraints(){
-        let ongoingLabelConstraints = [
-
-            ongoingLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-            ongoingLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15),
-            ongoingLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -15),
-//            ongoin
-            ongoingImage.leadingAnchor.constraint(equalTo: contentView.leadingAnchor)
-
-
-        ]
-    }
+//    private func applyconstraints(){
+//        let ongoingLabelConstraints = [
+//
+//            ongoingLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
+//            ongoingLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15),
+//            ongoingLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -15),
+////            ongoin
+//            ongoingImage.leadingAnchor.constraint(equalTo: contentView.leadingAnchor)
+//
+//
+//        ]
+//    }
 
     required init?(coder: NSCoder) {
         fatalError()

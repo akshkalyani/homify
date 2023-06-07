@@ -37,11 +37,18 @@
 		063CF16E29A4D4D00088F8BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CF16D29A4D4D00088F8BA /* HomeViewController.swift */; };
 		063CF17029A4D5D70088F8BA /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CF16F29A4D5D70088F8BA /* ServicesViewController.swift */; };
 		063CF17229A4D5E30088F8BA /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CF17129A4D5E30088F8BA /* CartViewController.swift */; };
+		A986FD1E29D83F4F005A17A6 /* UpcomingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A986FD1D29D83F4F005A17A6 /* UpcomingTableViewCell.swift */; };
+		A986FD2029D8437F005A17A6 /* BookNowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A986FD1F29D8437F005A17A6 /* BookNowTableViewCell.swift */; };
+		A986FD2229D843DE005A17A6 /* BookNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A986FD2129D843DE005A17A6 /* BookNowViewController.swift */; };
 		A9A5D66529D151790004F705 /* WorkerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5D66429D151790004F705 /* WorkerProfileViewController.swift */; };
 		A9A5D66729D152C30004F705 /* WorkerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5D66629D152C30004F705 /* WorkerTableViewCell.swift */; };
 		A9A5D66929D1537B0004F705 /* Worker Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5D66829D1537B0004F705 /* Worker Details.swift */; };
 		A9A5D66B29D155500004F705 /* WorkerProfleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A5D66A29D155500004F705 /* WorkerProfleHeader.swift */; };
 		A9BC2E2529CC328000143F63 /* AvailableServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC2E2429CC328000143F63 /* AvailableServicesViewController.swift */; };
+		A9CDC53029DFB28200A7A6AE /* AddressFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDC52F29DFB28200A7A6AE /* AddressFieldTableViewCell.swift */; };
+		A9CDC53229DFBB4400A7A6AE /* AddressInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDC53129DFBB4400A7A6AE /* AddressInputViewController.swift */; };
+		A9CDC53629DFC9D700A7A6AE /* WorkerPreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDC53529DFC9D700A7A6AE /* WorkerPreferenceViewController.swift */; };
+		A9CDC53829DFD79900A7A6AE /* ConfirmBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CDC53729DFD79900A7A6AE /* ConfirmBookingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,11 +101,18 @@
 		063CF16D29A4D4D00088F8BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		063CF16F29A4D5D70088F8BA /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		063CF17129A4D5E30088F8BA /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		A986FD1D29D83F4F005A17A6 /* UpcomingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingTableViewCell.swift; sourceTree = "<group>"; };
+		A986FD1F29D8437F005A17A6 /* BookNowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowTableViewCell.swift; sourceTree = "<group>"; };
+		A986FD2129D843DE005A17A6 /* BookNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowViewController.swift; sourceTree = "<group>"; };
 		A9A5D66429D151790004F705 /* WorkerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerProfileViewController.swift; sourceTree = "<group>"; };
 		A9A5D66629D152C30004F705 /* WorkerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerTableViewCell.swift; sourceTree = "<group>"; };
 		A9A5D66829D1537B0004F705 /* Worker Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Worker Details.swift"; sourceTree = "<group>"; };
 		A9A5D66A29D155500004F705 /* WorkerProfleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerProfleHeader.swift; sourceTree = "<group>"; };
 		A9BC2E2429CC328000143F63 /* AvailableServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableServicesViewController.swift; sourceTree = "<group>"; };
+		A9CDC52F29DFB28200A7A6AE /* AddressFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressFieldTableViewCell.swift; sourceTree = "<group>"; };
+		A9CDC53129DFBB4400A7A6AE /* AddressInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressInputViewController.swift; sourceTree = "<group>"; };
+		A9CDC53529DFC9D700A7A6AE /* WorkerPreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerPreferenceViewController.swift; sourceTree = "<group>"; };
+		A9CDC53729DFD79900A7A6AE /* ConfirmBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmBookingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +149,12 @@
 				062A98C229AB3A020054A563 /* HeroHeader.swift */,
 				062A98C829ABB1E60054A563 /* TitleCollectionViewCell.swift */,
 				062A98CF29ABDA6C0054A563 /* TitleTableViewCell.swift */,
+				A986FD1D29D83F4F005A17A6 /* UpcomingTableViewCell.swift */,
+				A9CDC52F29DFB28200A7A6AE /* AddressFieldTableViewCell.swift */,
 				062A98DB29AD5D100054A563 /* UserTableViewCell.swift */,
 				062A98D329AC3F030054A563 /* searchTableViewCell.swift */,
 				062A98DD29AF51680054A563 /* UserProfileHeader.swift */,
+				A986FD1F29D8437F005A17A6 /* BookNowTableViewCell.swift */,
 				062A98E529B5EEA20054A563 /* OngoingTableViewCell.swift */,
 				A9A5D66629D152C30004F705 /* WorkerTableViewCell.swift */,
 				A9A5D66A29D155500004F705 /* WorkerProfleHeader.swift */,
@@ -244,6 +261,10 @@
 				063CF17129A4D5E30088F8BA /* CartViewController.swift */,
 				062A98D529AC8B6D0054A563 /* SearchBarViewController.swift */,
 				062A98D929AD4D8C0054A563 /* UserProfileViewController.swift */,
+				A986FD2129D843DE005A17A6 /* BookNowViewController.swift */,
+				A9CDC53529DFC9D700A7A6AE /* WorkerPreferenceViewController.swift */,
+				A9CDC53729DFD79900A7A6AE /* ConfirmBookingViewController.swift */,
+				A9CDC53129DFBB4400A7A6AE /* AddressInputViewController.swift */,
 				062A98E129B1BDFB0054A563 /* UpcomingViewController.swift */,
 				A9BC2E2429CC328000143F63 /* AvailableServicesViewController.swift */,
 				A9A5D66429D151790004F705 /* WorkerProfileViewController.swift */,
@@ -392,10 +413,13 @@
 				A9A5D66B29D155500004F705 /* WorkerProfleHeader.swift in Sources */,
 				063CF14129A4D2920088F8BA /* ViewController.swift in Sources */,
 				062A98D629AC8B6D0054A563 /* SearchBarViewController.swift in Sources */,
+				A986FD1E29D83F4F005A17A6 /* UpcomingTableViewCell.swift in Sources */,
 				062A98D829AD3FC90054A563 /* User details.swift in Sources */,
 				062A98D029ABDA6C0054A563 /* TitleTableViewCell.swift in Sources */,
 				062A98C129AB2B290054A563 /* CollectionViewTableViewCell.swift in Sources */,
+				A9CDC53829DFD79900A7A6AE /* ConfirmBookingViewController.swift in Sources */,
 				A9BC2E2529CC328000143F63 /* AvailableServicesViewController.swift in Sources */,
+				A986FD2029D8437F005A17A6 /* BookNowTableViewCell.swift in Sources */,
 				063CF13D29A4D2920088F8BA /* AppDelegate.swift in Sources */,
 				062A98DE29AF51680054A563 /* UserProfileHeader.swift in Sources */,
 				062A98DA29AD4D8C0054A563 /* UserProfileViewController.swift in Sources */,
@@ -405,14 +429,18 @@
 				063CF13F29A4D2920088F8BA /* SceneDelegate.swift in Sources */,
 				A9A5D66929D1537B0004F705 /* Worker Details.swift in Sources */,
 				062A98E229B1BDFB0054A563 /* UpcomingViewController.swift in Sources */,
+				A9CDC53629DFC9D700A7A6AE /* WorkerPreferenceViewController.swift in Sources */,
 				062A98E629B5EEA20054A563 /* OngoingTableViewCell.swift in Sources */,
 				063CF17029A4D5D70088F8BA /* ServicesViewController.swift in Sources */,
 				062A98DC29AD5D100054A563 /* UserTableViewCell.swift in Sources */,
+				A9CDC53229DFBB4400A7A6AE /* AddressInputViewController.swift in Sources */,
 				062A98C329AB3A020054A563 /* HeroHeader.swift in Sources */,
+				A986FD2229D843DE005A17A6 /* BookNowViewController.swift in Sources */,
 				A9A5D66529D151790004F705 /* WorkerProfileViewController.swift in Sources */,
 				063CF17229A4D5E30088F8BA /* CartViewController.swift in Sources */,
 				062A98C929ABB1E60054A563 /* TitleCollectionViewCell.swift in Sources */,
 				062A98D229ABE8DA0054A563 /* TitleViewModel.swift in Sources */,
+				A9CDC53029DFB28200A7A6AE /* AddressFieldTableViewCell.swift in Sources */,
 				062A98C729AB5DA00054A563 /* Extensions.swift in Sources */,
 				063CF16E29A4D4D00088F8BA /* HomeViewController.swift in Sources */,
 				A9A5D66729D152C30004F705 /* WorkerTableViewCell.swift in Sources */,

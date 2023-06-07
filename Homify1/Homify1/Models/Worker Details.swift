@@ -9,11 +9,14 @@ import Foundation
 import UIKit
 
 struct Worker{
-    let username: String?
-    let password: String
+    let ID: Int?
+//    let username: String?
+//    let password: String
     let firstName: String?
     let lastName: String?
     let profileImage: UIImage
+    let languagesKnown: String?
+    let gender: String?
     let address: String
     let mobileNumber: String?
     let ratings: String?

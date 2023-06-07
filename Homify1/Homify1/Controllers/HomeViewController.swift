@@ -41,6 +41,9 @@ class HomeViewController: UIViewController{
         view.backgroundColor = .systemBackground
         view.addSubview(HomefeedTable)
         
+        tabBarController?.tabBar.tintColor = UIColor(named: "headerBackground")
+        tabBarController?.tabBar.unselectedItemTintColor = .label
+        
         HomefeedTable.delegate = self
         HomefeedTable.dataSource = self
         
@@ -48,6 +51,7 @@ class HomeViewController: UIViewController{
         
         let headerView = HeroHeader(frame: CGRect(x: 0, y: 0, width: 100, height: 400))
        HomefeedTable.tableHeaderView = headerView
+       //tabBarController?.tabBar.tintColor = .red
         
     }
     

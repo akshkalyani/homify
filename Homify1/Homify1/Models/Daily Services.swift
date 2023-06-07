@@ -41,3 +41,21 @@ struct Ongoing {
     
     
 }
+
+struct Upcoming {
+    
+    let id: Int
+    let service_type: String?
+    let service_name: String?
+    let service_title: String?
+    //let amount: String?
+    let coverImage: UIImage?
+    //let overview: String?
+    let rating: String?
+    let valid: String
+    let dayLeft: String?
+    let outOfdays: String?
+    let worker: Worker
+    let nextVisit: String?
+    
+}
